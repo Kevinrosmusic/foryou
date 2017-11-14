@@ -1,0 +1,141 @@
+a{
+text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.navbar{
+	margin-bottom: 0px;
+	border-radius: 0px;
+	z-index: 2;
+}
+.subnavbar{
+	width: 100%;
+	height: 7%;
+	background:black;
+	z-index: -1;
+	opacity: 0.4;
+	position: absolute;
+}
+
+.divSubnav{
+	margin-left: 12%;
+	z-index: 2;
+	position: relative;
+	
+}
+
+.subnavFont{
+	font-size: 200%;
+	font-family: 'Oswald', sans-serif;
+	color:white;
+	list-style-type:none;
+	display:inline;
+	margin-right: 10%;
+	z-index: 3;
+	opacity: 1;
+	margin-left: -3%;
+
+}
+
+.subnavFont:hover{
+	color:#ff6666;
+	transition:0.7s;
+}
+
+.navSize{
+	width: 100%;
+	height: 7%;
+}
+
+.logoEmail{
+	font-size: 200%;
+	font-family: 'Lobster';
+	color:white;
+	list-style-type:none;
+	display:inline;
+	margin-right: 10%;
+	z-index: 3;
+	opacity: 1;
+	margin-left: -3%;
+}
+.logoEmail:hover{
+color: #ff6666;
+transition:0.7s;
+}
+
+.socialMedia{
+	width: 20%;
+	color:white;
+	font-size: 200%;
+	
+	float:right;
+	margin-top: 0.8%;
+
+	}
+.logo{
+	margin-right: 5%;
+	color:white;
+}
+.logo:hover{
+color:#ff6666;
+transition:0.7s;
+}
+.carouselHome{
+	width:100%;
+	height: 400px;
+	z-index: -4;
+	position: absolute;
+	margin-top: -3.3%;
+}
+
+.divHome{
+	width: 1300px;
+	height: 400px;
+}
+
+.divBoxHome{
+	display: flex;
+	height: 93%;
+	align-items: flex-end;
+	justify-content: space-around;
+}
+
+.fontBoxHome{
+	font-size: 200%;
+	font-family: 'Oswald', sans-serif;
+	color:black;
+	list-style-type:none;
+	
+}
+.fontBoxHome:hover{
+	color:#ff6666;
+	transition:0.7s;
+}
+
+.NewsBox{
+	font-size: 80%;
+	font-family: 'Oswald', sans-serif;
+	color:black;
+	z-index: 3;
+	list-style-type:none;
+}
+
+.titleNews{
+	font-size: 120%;
+}
+.lastVideoBox{
+	margin-right: -3%;
+	font-size: 200%;
+	font-family: 'Oswald', sans-serif;
+	color:black;
+	list-style-type:none;
+	z-index: 3;
+}
+.twitterBox{
+	margin-left: -20%;
+	list-style-type:none;
+	z-index: 3;
+}
+
+

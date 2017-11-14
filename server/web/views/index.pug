@@ -1,0 +1,75 @@
+html
+    head
+        link(rel="stylesheet" href="vendor/bootstrap/3.3.7/css/bootstrap.min.css")
+        link(href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet')
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+        link(href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet")
+        link(href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet")
+        link(rel="stylesheet" href="./styles/main.css")
+        
+    body         
+        div(class="subnavbar navbar")
+        ul(class="divSubnav")
+            strong
+                a(href="#")
+                    i(class="glyphicon glyphicon-envelope logoEmail") &nbsp Forevers Vip
+                a(href="#")
+                    li(class="subnavFont") Noticias
+                a(href="#")
+                    li(class="subnavFont") Conciertos
+                a(href="#")
+                    li(class="subnavFont") Videos
+                a(href="#")
+                    li(class="subnavFont") Imagenes
+                div(class="socialMedia")
+                    a(href="https://www.facebook.com/foryoubanda" target="_blank")
+                        i(class="fa fa-facebook logo" aria-hidden="true")
+                    a(href="https://www.youtube.com/foryoubanda" target="_blank")
+                        i(class="fa fa-youtube logo" aria-hidden="true")
+                    a(href="https://www.twitter.com/foryoubanda" target="_blank")
+                        i(class="fa fa-twitter logo" aria-hidden="true")
+                    a(href="https://www.instagram.com/foryoubanda" target="_blank")
+                        i(class="fa fa-instagram logo" aria-hidden="true")
+        //-img(style="width:100%; height: 50%;" src="./videos/friends.gif" class="carouselHome") 
+        #myCarousel.carousel.slide(class="carouselHome" data-ride='carousel')
+                  .carousel-inner
+                    .item.active
+                      img(style="width:100%; height: 90%;" src="./videos/friends.gif")
+                    .item
+                      img(style="width:100%; height: 90%;" src="./videos/casiHumanos.gif")
+                    .item
+                      img(style="width:100%; height: 90%;" src="./videos/friends.gif", alt='New York')
+                    .item
+                      img(style="width:100%; height: 90%;" src="./videos/casiHumanos.gif", alt='New York')
+                    .item
+                      img(style="width:100%; height: 90%;" src="./videos/friends.gif", alt='New York')
+                    .item
+                      img(style="width:100%; height: 90%;" src="./videos/casiHumanos.gif", alt='Chicago')
+        div(class="divBoxHome")
+                a(href="#")
+                    strong  
+                        li(class="fontBoxHome")
+                            h2(class="titleNews") Últimas noticias
+                            ul(class="NewsBox")
+                                a(class="NewsBox" href="#")
+                                    li Lorem ipsum dolor sit amet
+                                a(class="NewsBox" href="#")
+                                    li consectetur adipisicing elit.
+                                a(class="NewsBox" href="#")
+                                    li Nisi unde non dolor corporis repellendus neque modi?
+                                a(class="NewsBox" href="#")
+                                    li Nisi unde non dolor corporis repellendus neque modi?
+                            
+                a(href="#")
+                    strong
+                        li(class="lastVideoBox") Nuestro último video    
+                            iframe(width="560" height="315" src="https://www.youtube.com/embed/OBEtJmw7C08" frameborder="0" allowfullscreen)
+                a(href="#")
+                    strong
+                        li(class="twitterBox")
+                            a(class="twitter-timeline twitterBox" data-lang="es" data-width="500" data-height="340" data-theme="light" href="https://twitter.com/foryoubanda?ref_src=twsrc%5Etfw") 
+                            script(async src="https://platform.twitter.com/widgets.js" charset="utf-8")
+        
+        script(type='text/javascript', src='vendor/jquery/1.12.4/jquery.min.js')
+        script(type='text/javascript', src='vendor/bootstrap/3.3.7/js/bootstrap.min.js')
+        link(rel="stylesheet" href="./styles/main.css")
